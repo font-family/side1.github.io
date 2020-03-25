@@ -1,0 +1,198 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>CSS. Часть №6 (псевдоклассы)</title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- Кодировка страницы -->
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<!--Оболочка-->
+	<div class="wrapper">
+		<header class="header">
+			<nav>
+				<div class="header__nav">
+					<div class="nav-item">
+						<a href="#">about us</a>
+						<span>.</span>
+						<a href="#">work</a>
+					</div>
+					<a href="#"><img src="/img/Logo.png" alt=""></a>
+					<div class="nav-item">
+						<a href="#">shop</a>
+						<span>.</span>
+						<a href="#">contact</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main class="main">
+			<div class="about">
+				<div class="vintage">
+					<div class="vintage__body">
+						<div class="vintage__icon"><img src="/img/Icon.png" alt=""></div>
+						<div class="vintage__title title">A NEW GENERATION OF VINTAGE BIKE</div>
+						<div class="vintage__text text">Lorem Ipsum is simply dummy text of the printing and typesetting
+							industry.
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+							printer
+							took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+							centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </div>
+					</div>
+				</div>
+				<div class="oliva">
+					<div class="oliva__column c-align">
+						<img src="/img/bicycle.png" alt="">
+					</div>
+					<div class="oliva__column">
+						<div class="oliva__column__body">
+							<div class="oliva__icon">
+								<img src="/img/Icon_oliva.png" alt="">
+							</div>
+							<div class="oliva__title title">VINTAGE OLIVA</div>
+							<div class="oliva__text text">Lorem Ipsum is simply dummy text of the printing and typesetting
+								industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+								unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived.</div>
+						</div>
+						<div class="oliva__photo"><img src="/img/oliva_seet.png" alt=""></div>
+					</div>
+				</div>
+				<div class="boriosa">
+					<div class="boriosa__column">
+						<div class="boriosa__body">
+							<div class="boriosa__icon">
+								<img src="/img/boriosa_Icon.png" alt="">
+							</div>
+							<div class="boriosa__title title">La Boriosa</div>
+							<div class="boriosa__text text">Lorem Ipsum is simply dummy text of the printing and typesetting
+								industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+								unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived.</div>
+						</div>
+						<div class="boriosa__photo">
+							<img src="/img/boriosa_seat.png" alt="">
+						</div>
+					</div>
+					<div class="boriosa__column c-align">
+						<img src="/img/boriosa_vintage.png" alt="">
+					</div>
+				</div>
+				<div class="retro">
+					<div class="retro__column c-align">
+						<img src="/img/retro_bicycles.png" alt="">
+					</div>
+					<div class="retro__column">
+						<div class="retro__body">
+							<div class="retro__icon">
+								<img src="/img/retro_Icon.png" alt="">
+							</div>
+							<div class="retro__title title">retrò Bike - M. Hulot</div>
+							<div class="retro__text text">Lorem Ipsum is simply dummy text of the printing and typesetting
+								industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+								unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived.</div>
+						</div>
+						<div class="retro__photo">
+							<img src="/img/retro_wheel.png" alt="">
+						</div>
+					</div>
+					<div class="retro__column"></div>
+				</div>
+				<div class="twitter">
+					<div class="twitter__body">
+						<div class="twitter__icon">
+							<img src="/img/twitter_Icon.png" alt="">
+						</div>
+						<div class="twitter__title">AOD New York @aod</div>
+						<div class="twitter__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac
+							nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</div>
+					</div>
+					<div class="twitter__points">
+						<img src="/img/Ellipse_act.png" alt="">
+						<img src="/img/Ellipse_inact.png" alt="">
+						<img src="/img/Ellipse_inact.png" alt="">
+					</div>
+				</div>
+				<div class="shop">
+					<div class="shop__column">
+						<div class="shop__row">
+							<div class="shop__item shop__item-1"></div>
+							<div class="shop__item shop__item-2"></div>
+						</div>
+						<div class="shop__item shop__item-3"></div>
+					</div>
+					<div class="shop__column">
+						<div class="shop__row">
+							<div class="shop__item-big shop__item-4"></div>
+							<div class="shop__item-big shop__item-5"></div>
+						</div>
+					</div>
+					<div class="shop__column">
+						<div class="shop__item shop__item-6">
+							<div class="shop__content c-align">
+								<img src="/img/shop_icon.png" alt="">
+								<span>Shop now</span>
+							</div>
+						</div>
+						<div class="shop__row">
+							<div class="shop__item shop__item-7"></div>
+							<div class="shop__item shop__item-8"></div>
+						</div>
+					</div>
+				</div>
+				<div class="discover">
+					<a href="#" class="discover__button">DISCOVER THE SHOP</a>
+				</div>
+				<div class="stay">
+					<div class="stay__body">
+						<div class="stay__logo">
+							<img src="/img/Logo.png" alt="">
+						</div>
+						<div class="stay__text">Stay on the saddle!</div>
+						<form action="#" class="email">
+							<input type="text" placeholder="enter your email... ">
+							<button>GO</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__body">
+				<div class="footer__column">
+					<div class="footer__text">
+						<div class="footer__text-bold">AOD New York</div>
+						<div class="footer__text-italic">
+							<p>2250 Lexington Avenue</p>
+							<p>New York, NY 10035 - info@domain.com</p>
+						</div>
+					</div>
+				</div>
+				<div class="footer__column">
+					<div class="footer__social">
+						<img src="/img/tw_icon.png" alt="">
+						<img src="/img/fb_icon.png" alt="">
+						<img src="/img/p_icon.png" alt="">
+					</div>
+				</div>
+				<div class="footer__column">
+					<span class="footer__text">Handcrafted by</span>
+					<img src="/img/Y_E_B_O_Logo.png" alt="">
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
